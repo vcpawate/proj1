@@ -3,28 +3,128 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Website</title>
+  <title>Discover Roseville, California</title>
+  <meta name="description" content="Why Roseville, California is one of the best places to live in the Sacramento region.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>My Website</h1>
-    <p>A simple site hosted on GitHub Pages.</p>
+
+  <nav class="navbar">
+    <div class="nav-inner">
+      <span class="brand">Roseville, CA</span>
+      <div class="nav-links">
+        <a href="#highlights">Why Roseville</a>
+        <a href="#neighborhoods">Places</a>
+        <a href="#life">Community</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">Placer County · Sacramento Region</p>
+      <h1>Roseville is one of California's best-kept gems.</h1>
+      <p class="lead">
+        Sunny valley skies, top-rated schools, a thriving job market, and a genuinely
+        friendly community — Roseville pairs small-town warmth with big-city convenience,
+        just 20 minutes from downtown Sacramento and an hour from Lake Tahoe.
+      </p>
+      <div class="hero-actions">
+        <a class="btn-primary" href="#highlights">See what makes it special</a>
+      </div>
+    </div>
   </header>
 
   <main>
-    <section>
-      <h2>Welcome</h2>
-      <p>This is a starter page. Edit <code>index.html</code> to get going.</p>
-      <button id="greet-btn">Say hello</button>
-      <p id="greet-output"></p>
+    <section id="highlights" class="section">
+      <h2>Why people love living here</h2>
+      <p class="section-sub">A city that keeps showing up on "best places to live" lists — and for good reason.</p>
+
+      <div class="grid">
+        <article class="card">
+          <div class="icon">☀️</div>
+          <h3>Great weather, year-round</h3>
+          <p>Over 260 sunny days a year with mild winters, making it easy to enjoy the outdoors any month of the year.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon">🎓</div>
+          <h3>Excellent schools</h3>
+          <p>Roseville City and Dry Creek school districts, plus Roseville Joint Union High School District, are consistently among the region's top performers.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon">💼</div>
+          <h3>A booming economy</h3>
+          <p>Home to major employers like HP Inc., Kaiser Permanente, and Sutter Health, Roseville anchors one of Northern California's fastest-growing job markets.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon">🛍️</div>
+          <h3>Shopping & dining for days</h3>
+          <p>The Westfield Galleria at Roseville is one of the largest shopping centers in Northern California, surrounded by a great mix of restaurants and entertainment.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon">🌳</div>
+          <h3>Parks and open space</h3>
+          <p>Miles of scenic trails along Miners Ravine and Dry Creek, plus Maidu Regional Park and its Nature Center, keep the outdoors close to home.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon">🚗</div>
+          <h3>Unbeatable location</h3>
+          <p>Twenty minutes to downtown Sacramento, under an hour to the Sierra foothills, and about ninety minutes to Lake Tahoe skiing.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="neighborhoods" class="section alt">
+      <h2>Places worth exploring</h2>
+      <div class="feature-row">
+        <div class="feature-text">
+          <h3>Historic Old Town / Vernon Street</h3>
+          <p>Charming brick storefronts, seasonal festivals, and a genuine small-town Main Street feel right in the middle of a growing city.</p>
+        </div>
+      </div>
+      <div class="feature-row reverse">
+        <div class="feature-text">
+          <h3>The Fountains at Roseville</h3>
+          <p>An open-air lifestyle center with boutique shops, restaurants, and a splash fountain that's a favorite spot for families on warm afternoons.</p>
+        </div>
+      </div>
+      <div class="feature-row">
+        <div class="feature-text">
+          <h3>Folsom Lake & the American River</h3>
+          <p>Boating, paddleboarding, hiking, and cycling are all just a short drive away — Roseville puts the best of the outdoors within easy reach.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="life" class="section">
+      <h2>Community that feels like home</h2>
+      <p class="section-sub">Safe neighborhoods, active civic life, and a calendar full of things to do.</p>
+      <ul class="checklist">
+        <li>Consistently ranked among the safest cities of its size in California</li>
+        <li>Award-winning Roseville Utility Exploration Center and one of the largest municipally owned electric utilities in the state</li>
+        <li>Golfland Sunsplash, the Roseville Aquatics Complex, and Mahany Park keep families entertained all year</li>
+        <li>Easy Amtrak and freeway access via I-80 puts the whole region within reach</li>
+        <li>A strong sense of community, from farmers markets to summer concert series</li>
+      </ul>
+
+      <blockquote class="quote">
+        "Roseville gives you the space, safety, and sunshine of the suburbs without giving up
+        the culture, jobs, and energy of a big city nearby."
+      </blockquote>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2026 My Website</p>
+    <p>Made with ❤️ for Roseville, California.</p>
   </footer>
 
-  <script src="script.js"></script>
 </body>
 </html>
